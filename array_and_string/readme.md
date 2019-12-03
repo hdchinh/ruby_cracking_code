@@ -11,3 +11,5 @@ without using any additional buffer. NOTE: One or two additional variables are f
 An extra copy of the array is not.
 
 `1.4.rb`: Write a method to decide if two strings are anagrams or not.
+
+`1.5.rb`: Write a method to replace all spaces in a string with ‘%20’.
