@@ -1,4 +1,6 @@
 def remove_duplicate(str)
+  return if(!str)
+
   h = {}
   pointer = 0
 
