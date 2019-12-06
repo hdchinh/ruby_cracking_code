@@ -13,3 +13,6 @@ An extra copy of the array is not.
 `1.4.rb`: Write a method to decide if two strings are anagrams or not.
 
 `1.5.rb`: Write a method to replace all spaces in a string with ‘%20’.
+
+`1.6.rb`: Given an image represented by an NxN matrix, where each pixel in the image is 4
+bytes, write a method to rotate the image by 90 degrees. Can you do this in place?
