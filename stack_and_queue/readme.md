@@ -14,3 +14,5 @@ would if there were just a single stack).
 FOLLOW UP
 Implement a function popAt(int index) which performs a pop operation on a specific
 sub-stack
+
+`3.4.rb`: Tower of Hanoi
