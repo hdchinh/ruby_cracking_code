@@ -60,6 +60,7 @@ class LinkedList
     return false
   end
 
+  # find node nth from the end of linked list
   def find_nth_from_end_list(n)
     return nil if (n < 0 || n > @length || !@head)
 
@@ -76,6 +77,7 @@ class LinkedList
     end
   end
 
+  # remove duplicate node
   def remove_duplicate
     current_node = @head
     hash = {}
@@ -96,6 +98,7 @@ class LinkedList
     end
   end
 
+  # remove middle node
   def remove_middle_node
     position = @length/2
 
@@ -126,6 +129,7 @@ class LinkedList
     end
   end
 
+  # plus two linked list
   def plus(l2)
     result = LinkedList.new
     curr1 = @head
